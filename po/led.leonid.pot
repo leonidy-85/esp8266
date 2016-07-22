@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-22 16:38+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/leo/Dropbox/qt/led/led/about.qml:9
+#: /home/leo/Dropbox/qt/led/led/Main.qml:184
+msgid "About"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/about.qml:39
+msgid "led for ESP8266"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/about.qml:44
+msgid "v0.2"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/about.qml:50
+msgid "leonidy85@gmail.com"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/about.qml:56
+msgid "2016"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/about2.qml:9
+msgid "changelog"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/about2.qml:31
+msgid "21.07.2016  v0.01 running"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:27
+msgid "Manage stripes"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:40
+msgid "Delete"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:51
+msgid "Do you want to delete the"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:51
+msgid "?"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:53
+msgid "Accept"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:58
+msgid "led has been deleted"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:66
+msgid "Cancel"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:82
+msgid "Configure your stripes"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:100
+msgid "Stripes name:"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:127
+msgid "Description:"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:141
+msgid "Save changes"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/edit.qml:145
+msgid "Changes has been saved"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:41
+msgid "Close aplication"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:86
+msgid "Select a led:"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:102
+msgid "Brightness"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:115
+msgid "Timer"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:150
+msgid "light"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:163
+#: /home/leo/Dropbox/qt/led/led/option.qml:11
+msgid "Add stripes"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:173
+msgid "Edit led"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/option.qml:30
+msgid "Write the name of the led stipe:"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/option.qml:39
+msgid "led"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/option.qml:42
+msgid "Enter the ip of the led strip:"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/option.qml:51
+msgid "192.168.0.1"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/option.qml:56
+msgid "Write a short description:"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/option.qml:69
+msgid "Save options"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/option.qml:72
+msgid "Options saved"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/stripes.qml:17
+msgid "Manage your stripes"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/stripes.qml:62
+msgid "Edit"
+msgstr ""
+
+#: /home/leo/Dropbox/build-led-Ubuntu_Device_GCC_armhf_ubuntu_sdk_15_04_vivid-Debug/led/led.desktop.h:1
+msgid "led for esp8266"
+msgstr ""

@@ -1,0 +1,15 @@
+{
+    "name": "led",
+    "description": "led",
+    "architecture": "@CLICK_ARCH@",
+    "title": "led",
+    "hooks": {
+        "led": {
+            "apparmor": "led/led.apparmor",
+            "desktop": "led/led.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Leonid Yurasov <leonidy85@gmail.com>",
+    "framework": "ubuntu-sdk-15.04.6"
+}

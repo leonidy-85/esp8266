@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=led for esp8266
+Exec=qmlscene %U led/Main.qml
+Icon=led/led.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
