@@ -26,6 +26,7 @@ Page {
                 topMargin: units.gu(5)
                 margins: units.gu(2)
                 fill: parent
+
             }
 
             ListModel {
@@ -49,10 +50,12 @@ Page {
                     delegate: Rectangle {
                         width: 475
                         height: 50
+                        color: "black"
+
                     Text {
                             anchors.left: parent.left
                             text: name
-                           color: "black"
+                           color: "white"
                         }
 
                     Button {

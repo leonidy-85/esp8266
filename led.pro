@@ -7,7 +7,7 @@ TEMPLATE = subdirs
 load(ubuntu-click)
 
 SUBDIRS += led \
-           backend/Led
+           backend/led
 
 # specify the manifest file, this file is required for click
 # packaging and for the IDE to create runconfigurations

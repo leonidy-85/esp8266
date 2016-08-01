@@ -37,7 +37,7 @@ function jobDB() {
     )
 }
 
-
+//Добавить новое значение в БД
 function insert(name, ip, descripcion) {
     var db = LocalStorage.openDatabaseSync("led.db", "1.0", "led DataBase", 100000);
 
@@ -77,4 +77,27 @@ var db = LocalStorage.openDatabaseSync("led.db", "1.0", "led DataBase", 100000);
             "descripcion": unidad.descripcion});
         }
     )
+}
+
+function onled(name, st) {
+    var db = LocalStorage.openDatabaseSync("led.db", "1.0", "led DataBase", 100000);
+
+    var st;
+    console.log('on')
+    switch(st){
+    case 0:
+        console.log('on')
+        var request = new XMLHttpRequest()
+       // request.open('GET', led.source +'/?stat=1')
+        request.open('GET', '192.168.10.57/?stat=1')
+        request.send()
+        break
+    case 1:
+        console.log('off')
+        request.open('GET', '192.168.10.57/?stat=0')
+       // request.open('GET', led.source +'/?stat=0')
+        request.send()
+        break
+    }
+
 }

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-22 16:38+0300\n"
+"POT-Creation-Date: 2016-08-01 11:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/leo/Dropbox/qt/led/led/about.qml:9
-#: /home/leo/Dropbox/qt/led/led/Main.qml:184
+#: /home/leo/Dropbox/qt/led/led/about.qml:10
+#: /home/leo/Dropbox/qt/led/led/Main.qml:206
 msgid "About"
 msgstr ""
 
@@ -36,14 +36,6 @@ msgstr ""
 
 #: /home/leo/Dropbox/qt/led/led/about.qml:56
 msgid "2016"
-msgstr ""
-
-#: /home/leo/Dropbox/qt/led/led/about2.qml:9
-msgid "changelog"
-msgstr ""
-
-#: /home/leo/Dropbox/qt/led/led/about2.qml:31
-msgid "21.07.2016  v0.01 running"
 msgstr ""
 
 #: /home/leo/Dropbox/qt/led/led/edit.qml:27
@@ -82,15 +74,15 @@ msgstr ""
 msgid "Stripes name:"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/edit.qml:127
+#: /home/leo/Dropbox/qt/led/led/edit.qml:124
 msgid "Description:"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/edit.qml:141
+#: /home/leo/Dropbox/qt/led/led/edit.qml:138
 msgid "Save changes"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/edit.qml:145
+#: /home/leo/Dropbox/qt/led/led/edit.qml:142
 msgid "Changes has been saved"
 msgstr ""
 
@@ -110,16 +102,25 @@ msgstr ""
 msgid "Timer"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/Main.qml:150
-msgid "light"
+#: /home/leo/Dropbox/qt/led/led/Main.qml:151
+msgid "On"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/Main.qml:163
+#: /home/leo/Dropbox/qt/led/led/Main.qml:157
+msgid "1"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:169
+#: /home/leo/Dropbox/qt/led/led/option.qml:51
+msgid "192.168.0.254"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:185
 #: /home/leo/Dropbox/qt/led/led/option.qml:11
 msgid "Add stripes"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/Main.qml:173
+#: /home/leo/Dropbox/qt/led/led/Main.qml:195
 msgid "Edit led"
 msgstr ""
 
@@ -133,10 +134,6 @@ msgstr ""
 
 #: /home/leo/Dropbox/qt/led/led/option.qml:42
 msgid "Enter the ip of the led strip:"
-msgstr ""
-
-#: /home/leo/Dropbox/qt/led/led/option.qml:51
-msgid "192.168.0.1"
 msgstr ""
 
 #: /home/leo/Dropbox/qt/led/led/option.qml:56
@@ -155,10 +152,10 @@ msgstr ""
 msgid "Manage your stripes"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/stripes.qml:62
+#: /home/leo/Dropbox/qt/led/led/stripes.qml:65
 msgid "Edit"
 msgstr ""
 
-#: /home/leo/Dropbox/build-led-Ubuntu_Device_GCC_armhf_ubuntu_sdk_15_04_vivid-Debug/led/led.desktop.h:1
+#: /home/leo/Dropbox/build-led-Desktop-Debug/led/led.desktop.h:1
 msgid "led for esp8266"
 msgstr ""

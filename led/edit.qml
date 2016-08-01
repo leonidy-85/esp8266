@@ -109,9 +109,6 @@ Page {
                 text: name
             }
 
-//            Label {
-//                text: i18n.tr("Audio link:")
-//            }
 
             TextField {
                 id: ips
@@ -136,13 +133,13 @@ Page {
             }
 
             Button {
-                id: bguradar
+                id: save
                 width: parent.width
                 text: i18n.tr("Save changes")
                 onClicked: {
                     DB.del(name)
                     DB.insert(names.text, ips.text, txdescripcion.text)
-                    bguradar.text = i18n.tr("Changes has been saved")
+                    save.text = i18n.tr("Changes has been saved")
                     settings.state = "true"
                 }
             }

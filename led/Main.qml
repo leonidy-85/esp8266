@@ -69,13 +69,13 @@ MainView {
 
                     Timer {
                         id: restartdb
-                        interval: 12000; triggeredOnStart: true; running: true; repeat: true
+                        interval: 5000; triggeredOnStart: true; running: true; repeat: true
                         onTriggered: {
                             if (settings.state !== "true") {
                                 dbprimary.clear()
                                 DB.jobDB()
                                 settings.state = "false"
-                             }
+                            }
                         }
                     }
 
@@ -94,7 +94,7 @@ MainView {
                         font.pixelSize: units.gu(1.8)
                         width: parent.width
                         anchors.horizontalCenter:parent.horizontalCenter
-                        text: Text.describe
+                        text: {Text:describe}
                     }
 
                     Label {
@@ -142,16 +142,38 @@ MainView {
                     Row{
                         spacing: units.gu(2)
                         anchors.horizontalCenter:parent.horizontalCenter
+
                         Button{
-                            id: playB
+                            id: light
                             color: "#068706"
                             width: units.gu(14)
                             height: units.gu(6)
-                            text: i18n.tr("light")
+                            text: i18n.tr("On")
                             onClicked:{
+                                var channel = os1.selectedIndex;
+                                // col2.ledChannel(channel);
 
+                                if (settings.state !== "false") {
+                                    text: i18n.tr("1")
+                                    //lights.text = i18n.tr("1")
+                                    //onled()
+                                    light.text="Off"
+                                    settings.state = "false"
+                                    //stat.text = i18n.tr("Off")
+                                    // console.log('off')
+
+                                }
+                                else  {
+                                    //lights.text="1"
+                                    light.text="On"
+                                    text: i18n.tr("192.168.0.254")
+                                    //onled(lights.text)
+                                    settings.state = "true"
+                                    //stat.text = i18n.tr("On")
+                                    //   console.log('on')
+
+                                }
                             }
-
                         }
                     }
                 }

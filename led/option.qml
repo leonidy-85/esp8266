@@ -48,7 +48,7 @@ Page {
                 width: parent.width
                 height: units.gu(4)
                 font.pixelSize: FontUtils.sizeToPixels("medium")
-                text: i18n.tr("192.168.0.1")
+                text: i18n.tr("192.168.0.254")
             }
 
 
