@@ -33,5 +33,7 @@ desktop_file.CONFIG += no_check_exist
 
 INSTALLS+=config_files qml_files desktop_file
 
-DISTFILES +=
+DISTFILES += \
+    wiki.qml \
+    esp.jpg
 

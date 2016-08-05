@@ -98,12 +98,15 @@ MainView {
                     }
 
                     Label {
+                        id: brightness
                         anchors.left: parent.left
-                        text: i18n.tr("Brightness")
                     }
                     Slider {
                         function formatValue(v) {
-                            return v.toFixed(2)
+                            brightness.text='Brightness '+v.toFixed(0)
+                            var channel = os1.selectedIndex;
+                            DB.lightled(v.toFixed(0), channel)
+                            return
                         }
                         minimumValue: 0
                         maximumValue: 255
@@ -111,13 +114,17 @@ MainView {
                         live: true
                     }
                     Label {
+                        id:timer
                         anchors.left: parent.left
                         text: i18n.tr("Timer" )
                     }
 
                     Slider {
                         function formatValue(v) {
-                            return v.toFixed(2)
+                            var channel = os1.selectedIndex;
+                            timer.text='Timer '+v.toFixed(0)
+                            DB.timerled(v.toFixed(0), channel)
+                            return
                         }
                         minimumValue: 0
                         maximumValue: 60
@@ -152,11 +159,11 @@ MainView {
                             onClicked:{
                                 var channel = os1.selectedIndex;
                                 // col2.ledChannel(channel);
+                                //describe.text = dbprimary.get(channel).descripcion
+                                //led.text = rootPage.ip + dbprimary.get(channel).name
 
                                 if (settings.state !== "false") {
-                                    text: i18n.tr("1")
-                                    //lights.text = i18n.tr("1")
-                                    //onled()
+                                    DB.onled(1,channel);
                                     light.text="Off"
                                     settings.state = "false"
                                     //stat.text = i18n.tr("Off")
@@ -164,11 +171,11 @@ MainView {
 
                                 }
                                 else  {
-                                    //lights.text="1"
                                     light.text="On"
-                                    text: i18n.tr("192.168.0.254")
-                                    //onled(lights.text)
+                                    DB.onled(0,channel);
                                     settings.state = "true"
+                                    // var request = new XMLHttpRequest()
+
                                     //stat.text = i18n.tr("On")
                                     //   console.log('on')
 
@@ -208,6 +215,15 @@ MainView {
                 parent: config
                 anchors.fill: parent
                 source: (tabs.selectedTab === about) ? Qt.resolvedUrl("about.qml") : ""
+            }
+        }
+        Tab {
+            id: wiki
+            title: i18n.tr("Wiki")
+            page: Loader {
+                parent: config
+                anchors.fill: parent
+                source: (tabs.selectedTab === wiki) ? Qt.resolvedUrl("wiki.qml") : ""
             }
         }
     }
