@@ -87,14 +87,13 @@ function onled(st,channel) {
 
     switch(st){
     case 0:
-        console.log(qr)
+        //console.log(qr)
         request.open('GET','http://'+ source +'/?stat=1')
         // request.open('GET', '192.168.10.57/?stat=1')
         request.send()
         break
     case 1:
-        console.log(source)
-
+        //console.log(source)
         //request.open('GET', '192.168.10.57/?stat=0')
         request.open('GET','http://'+ source +'/?stat=0')
         request.send()

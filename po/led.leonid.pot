@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-05 15:55+0300\n"
+"POT-Creation-Date: 2016-08-06 14:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: /home/leo/Dropbox/qt/led/led/about.qml:10
-#: /home/leo/Dropbox/qt/led/led/Main.qml:213
+#: /home/leo/Dropbox/qt/led/led/Main.qml:220
 msgid "About"
 msgstr ""
 
@@ -94,24 +94,33 @@ msgstr ""
 msgid "Select a led:"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/Main.qml:119
+#: /home/leo/Dropbox/qt/led/led/Main.qml:127
 msgid "Timer"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/Main.qml:158
+#: /home/leo/Dropbox/qt/led/led/Main.qml:166
 msgid "On"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/Main.qml:192
+#: /home/leo/Dropbox/qt/led/led/Main.qml:174
+msgid "Off"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:184
+msgid "true"
+msgstr ""
+
+#: /home/leo/Dropbox/qt/led/led/Main.qml:199
 #: /home/leo/Dropbox/qt/led/led/option.qml:11
 msgid "Add stripes"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/Main.qml:202
+#: /home/leo/Dropbox/qt/led/led/Main.qml:209
 msgid "Edit led"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/led/led/Main.qml:222
+#: /home/leo/Dropbox/qt/led/led/Main.qml:229
+#: /home/leo/Dropbox/qt/led/led/wiki.qml:10
 msgid "Wiki"
 msgstr ""
 
@@ -151,6 +160,6 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: /home/leo/Dropbox/build-led-Desktop-Debug/led/led.desktop.h:1
+#: /home/leo/Dropbox/qt/build-led-UbuntuSDK_for_device_armhf_GCC_armhf_ubuntu_sdk_15_04-Debug/led/led.desktop.h:1
 msgid "led for esp8266"
 msgstr ""

@@ -90,11 +90,19 @@ MainView {
                     }
 
                     Label {
+                        text: (" ")
+                    }
+
+                    Label {
                         id:describe
                         font.pixelSize: units.gu(1.8)
                         width: parent.width
                         anchors.horizontalCenter:parent.horizontalCenter
                         text: {Text:describe}
+                    }
+
+                    Label {
+                        text: (" ")
                     }
 
                     Label {
@@ -159,12 +167,12 @@ MainView {
                             onClicked:{
                                 var channel = os1.selectedIndex;
                                 // col2.ledChannel(channel);
-                                //describe.text = dbprimary.get(channel).descripcion
+                                describe.text = dbprimary.get(channel).descripcion
                                 //led.text = rootPage.ip + dbprimary.get(channel).name
 
                                 if (settings.state !== "false") {
+                                    light.text=i18n.tr("Off")
                                     DB.onled(1,channel);
-                                    light.text="Off"
                                     settings.state = "false"
                                     //stat.text = i18n.tr("Off")
                                     // console.log('off')
@@ -173,8 +181,7 @@ MainView {
                                 else  {
                                     light.text="On"
                                     DB.onled(0,channel);
-                                    settings.state = "true"
-                                    // var request = new XMLHttpRequest()
+                                    settings.state = i18n.tr("true")
 
                                     //stat.text = i18n.tr("On")
                                     //   console.log('on')
